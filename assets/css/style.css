@@ -1,0 +1,143 @@
+.full-body{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+    background-color: #fafafa;
+    
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.celular{
+    display: flex;
+    width: 380px;
+    height: 581px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    width: 350px;
+    height: 581px;
+    margin-left: 5px;
+    margin: 5px;
+
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.body-login{
+    display: flex;
+    width: 350px;
+    height: 321px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.element1-logo{
+    display: flex;
+    width: 341px;
+    height: 71px;
+    
+
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.element2-perfil{
+    display: flex;
+    
+    width: 341px;
+    height: 122px;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 5px;
+}
+
+.foto-perfil{
+    display: flex;
+    width: 102px;
+    height: 102px;
+
+    border-radius: 50px;
+    
+    background-color: aquamarine;
+}
+
+.element3-botao-entrar{
+    display: flex;
+    width: 341px;
+    height: 50px;
+    
+
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.botao{
+    display: flex;
+    width: 279px;
+    height: 30px;
+    background-color: #0095f6;
+    
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 16px;
+    color: white;
+}
+
+.element4-trocar-de-conta{
+    display: flex;
+    width: 341px;
+    height: 38px;
+    
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 15px;
+    
+}
+
+.link2{
+    color: #0095f6;
+}
+
+
+@media (max-width: 1024px) {
+    body{
+        background-color: #fff;
+    }
+    .full-body{
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    .full-body{
+        width: 90%;
+    }
+}
+
